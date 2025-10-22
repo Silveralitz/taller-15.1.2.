@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lorem Ipsum — Maqueta</title>
+
+  <!-- Bootstrap 5 CSS (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark px-3">
+      <a class="navbar-brand fw-bold" href="#">LOREM IPSUM</a>
+
+      <!-- Search (visible md+) -->
+      <form class="d-none d-md-flex ms-auto me-3 w-25" role="search">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+      </form>
+
+      <!-- Hamburger (visible on small) -->
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Top nav links (visible md+) -->
+      <div class="collapse navbar-collapse justify-content-center d-none d-md-flex">
+        <ul class="navbar-nav">
+          <li class="nav-item px-2"><a class="nav-link" href="#">Dolor</a></li>
+          <li class="nav-item px-2"><a class="nav-link" href="#">Sit</a></li>
+          <li class="nav-item px-2"><a class="nav-link" href="#">Amet</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Mobile collapsible menu -->
+    <div class="collapse" id="mobileMenu">
+      <div class="mobile-menu bg-dark text-light p-3">
+        <form class="mb-3">
+          <input class="form-control" type="search" placeholder="Search">
+        </form>
+        <ul class="list-unstyled mb-0">
+          <li class="mb-2"><a class="text-light text-decoration-none" href="#">Dolor</a></li>
+          <li class="mb-2"><a class="text-light text-decoration-none" href="#">Sit</a></li>
+          <li class="mb-2"><a class="text-light text-decoration-none" href="#">Amet</a></li>
+          <li class="mb-2"><a class="text-light text-decoration-none" href="#">Opciones</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="container-fluid mt-4">
+    <div class="container">
+
+      <!-- Title + carousel line -->
+      <div class="text-center mb-4">
+        <h2 class="fw-bold">Lorem ipsum...</h2>
+        <div id="carouselLine" class="carousel-line mx-auto mt-3 p-2">
+          ...vestibulum mollis, tortor ac congue commodo
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Sidebar (visible md+) -->
+        <aside class="col-md-3 d-none d-md-block">
+          <div class="list-group mb-4">
+            <a class="list-group-item list-group-item-action" href="#">Opción 1</a>
+            <a class="list-group-item list-group-item-action" href="#">Opción 2</a>
+            <a class="list-group-item list-group-item-action" href="#">Opción 3</a>
+            <a class="list-group-item list-group-item-action" href="#">Opción 4</a>
+          </div>
+        </aside>
+
+        <!-- Main col -->
+        <section class="col-12 col-md-9">
+          <!-- Grid of text boxes resembling the samples -->
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis, tortor ac congue commodo, nisi neque bibendum elit, quis vulputate dolor augue ut mauris. tincidunt.</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="panel">
+                <p>Phasellus eleifend semper tempor. Quisque mi lorem, laoreet eu urna sit amet, tempor volutpat est. Vestibulum lobortis nulla vel odio laoreet, iaculis rhoncus neque porttitor.</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div class="panel">
+                <p>Fusce vitae enim et tellus lacinia condimentum eu at massa. Nullam laoreet, elit quis hendrerit maximus, ante sem congue lorem, at vestibulum felis mauris et arcu.</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="panel">
+                <p>Mauris mattis porttitor erat, in pharetra risus fringilla lobortis. Vestibulum et ante commodo, imperdiet neque ac, tempus felis. Nullam sed pharetra purus.</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div class="panel">
+                <p>In mi velit, fringilla sed velit vel, ornare varius dui. Nunc viverra diam sit amet mollis posuere. Nullam semper odio in consectetur ornare.</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="panel">
+                <p>Proin suscipit orci mi, ut hendrerit mi molestie nec. Donec efficitur risus erat, eu auctor massa molestie vitae.</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div class="panel">
+                <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec lectus ligula, ultricies ut est nec, varius dignissim nulla.</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="panel">
+                <p>In aliquet fringilla libero, quis dapibus massa tincidunt a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- Bootstrap 5 JS Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
